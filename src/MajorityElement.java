@@ -1,8 +1,5 @@
 import java.util.Arrays;
 
-/**
- * Created by tonyyin on 7/26/17.
- */
 public class MajorityElement {
 
     public static void main(String[] args) {
@@ -35,7 +32,7 @@ public class MajorityElement {
         return -1;  //If no majority exists
     }
 
-    //Option 2: Much simpler with O(n) time; wait this assumes array is already sorted? YES!!!!! Because my
+    //Option 2: Much simpler with O(n) time; assumes array is already sorted... as
     //original code had actually modified the original nums array!
     public static int majorityElement2(int[] nums) {
         int major = nums[0];

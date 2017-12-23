@@ -63,7 +63,7 @@ public class LargestSum {
         return output;
     }
 
-    
+
 
     //Version 0.3 (issues)
     public static int[] indices(int[] input) {
