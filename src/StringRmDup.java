@@ -44,10 +44,6 @@ public class StringRmDup {
             }
         }
 
-        //Slightly more complicated answer
-        //ArrayList<String> tentativeAnswer = new ArrayList<>(ht.values());   //Can pass collections are parameters to ArrayList
-        //return tentativeAnswer.toString();
-
         return finalAnswer;
     }
 

@@ -8,13 +8,10 @@ public class RevLinkedList {
         a.addAtBegin(25);
         a.addAtBegin(30);
         a.display(a.head);
-        //a.reverseIterative(a.head);   //So destructive relation whereby org. linked list a is ruined
         a.head = a.reverseIterative(a.head);
         System.out.println("Now");
         a.display(a.head);
-        //a.display(a.head);
     }
-//Note these classes are parallel to the main body
 }
 
 
@@ -52,14 +49,12 @@ class LinkedListT {
 
         //  a -> b -> c
         while (currNode != null) {
-            //LOL we independently arrived at the right solution, just took some sample cases...
             nextNode = currNode.next;   //b, c
             currNode.next = prevNode;   //null, a
             prevNode = currNode;        //a, b
             currNode = nextNode;        //b, c
         }
-        //head = currNode;    //Since finally node is org. linked list is head of reversed list (oops. off by one...)
-        head = prevNode;      //Don't forget prevNode = currNode and currNode point's to future null...
+        head = prevNode;
         System.out.println("Reverse through iteration");
         display(head);
         return head;

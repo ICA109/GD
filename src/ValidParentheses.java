@@ -43,6 +43,6 @@ public class ValidParentheses {
                 return false;
             }
         }
-        return true;    //If we make it through intact...
+        return true;
     }
 }
