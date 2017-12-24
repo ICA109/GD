@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CTCI/Q1_3_URLify.java" afterPath="$PROJECT_DIR$/src/CTCI/Q1_3_URLify.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +47,7 @@
       <file leaf-file-name="Q1_3_URLify.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_3_URLify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="335">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
@@ -434,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514147002630</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed indexing issue">
+      <created>1514150666962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1514150666962</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -481,7 +487,8 @@
     <MESSAGE value="Added CTCI Q1.1" />
     <MESSAGE value="Added CTCI Q1.2" />
     <MESSAGE value="Added CTCI Q1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CTCI Q1.3" />
+    <MESSAGE value="Fixed indexing issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed indexing issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -637,7 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_3_URLify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="335">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
