@@ -73,8 +73,7 @@ public class SubDup {
             String toCompare = "";
 
             for (int i = 0; i <= workingCopy.length() - 1; i++) {
-
-                //I can't believe this was the missing core insight...
+                
                 if (i == workingCopy.length() - 1)
                     toCompare = workingCopy.substring(i, i + 1); //Just final char by itself
 
