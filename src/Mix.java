@@ -34,6 +34,9 @@ public class Mix {
         //System.out.println(Arrays.toString(fibs(100)));
         System.out.println(fibs(10));
         System.out.println(fibs(100));
+
+        System.out.println(isPalindrome(14341));
+        System.out.println(isPalindrome(1001));
     }
 
     //For-loop
@@ -84,38 +87,6 @@ public class Mix {
         return ans;
     }
 
-
-    //Fibs (actually be careful with data overflow...)
-    /*
-    public static long[] fibs(int amt) {
-        long[] all = new long[amt];
-        long n1 = 0;
-        long n2 = 1;
-        long sum = 0;
-        for (int i=1; i<=amt; i++) {
-            all[i-1] = n1;
-            sum = n1 + n2;
-            n1 = n2;
-            n2 = sum;
-        }
-        return all;
-    }
-    */
-    /*
-    public static String fibs(int amt) {
-        BigInteger[] all = new BigInteger[amt];
-        BigInteger n1 = BigInteger.ZERO;
-        BigInteger n2 = BigInteger.ONE;
-        BigInteger sum = BigInteger.ZERO;
-        for (int i=1; i<=amt; i++) {
-            all[i-1] = n1;
-            sum = n1.add(n2);
-            n1 = n2;
-            n2 = sum;
-        }
-        return Arrays.toString(all);
-    }
-    */
     public static String fibs(int amt) {
         BigInteger[] all = new BigInteger[amt];
         all[0] = BigInteger.ZERO;
@@ -124,5 +95,18 @@ public class Mix {
             all[i] = all[i-2].add(all[i-1]);
         }
         return Arrays.toString(all);
+    }
+
+    public static boolean isPalindrome(int x) {
+        int org = x;
+        int rev = 0;
+        if(x < 0 || (x%10 == 0 && x != 0)) {
+            return false;
+        }
+        while(org!=0) {
+            rev=rev*10+(org%10);    //Extract rightmost digit and add to reversed half
+            org=org/10;             //Drop last digit of original number
+        }
+        return x == rev;
     }
 }
