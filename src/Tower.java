@@ -14,8 +14,6 @@ public class Tower {
     public static void main(String[] args) {
         Tower towersOfHanoi = new Tower();
         System.out.print("Enter number of discs: ");
-        //Scanner scanner = new Scanner(System.in);
-        //int discs = scanner.nextInt();
         int discs = 3;
         System.out.println();
         towersOfHanoi.solve(discs, "A", "B", "C");
