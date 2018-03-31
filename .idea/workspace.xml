@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordScramble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LargestSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LargestSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LargestSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordScramble.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WordScramble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -69,6 +77,7 @@
         <option value="$PROJECT_DIR$/src/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/Tower.java" />
         <option value="[cs421g27]consoles/cs421g27" />
+        <option value="$PROJECT_DIR$/src/WordScramble.java" />
       </list>
     </option>
   </component>
@@ -79,7 +88,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="-9" />
+    <option name="y" value="38" />
     <option name="width" value="1440" />
     <option name="height" value="802" />
   </component>
@@ -91,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,7 +118,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -137,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LargestSum">
+  <component name="RunManager" selected="Application.WordScramble">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -153,11 +163,6 @@
       <module name="GD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MostSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MostSpaces" />
-      <module name="GD" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReverseString" />
       <module name="GD" />
@@ -165,6 +170,11 @@
     </configuration>
     <configuration name="Tower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tower" />
+      <module name="GD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="WordScramble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordScramble" />
       <module name="GD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -223,19 +233,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.MostSpaces" />
       <item itemvalue="Application.Misc" />
       <item itemvalue="Application.Tower" />
       <item itemvalue="Application.ReverseString" />
       <item itemvalue="Application.LargestSum" />
+      <item itemvalue="Application.WordScramble" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordScramble" />
         <item itemvalue="Application.LargestSum" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.Tower" />
         <item itemvalue="Application.Misc" />
-        <item itemvalue="Application.MostSpaces" />
       </list>
     </recent_temporary>
   </component>
@@ -435,18 +445,19 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="7" weight="0.3297568" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281471" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" weight="0.32956153" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19858156" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19858156" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21923621" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20600858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
       <window_info id="Learn" order="8" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -454,7 +465,6 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36827195" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281471" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -514,13 +524,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RevLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringRmDup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -807,6 +810,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordScramble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
