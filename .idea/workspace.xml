@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FirstRepeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueueFromStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/tonyyin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/tonyyin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exclude/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exclude/StackWMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GD.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,26 +24,21 @@
       <file leaf-file-name="WordScramble.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordScramble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="375">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstRepeat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FirstRepeat.java">
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueueFromStack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/QueueFromStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="e#3804#3805#0" expanded="true" />
+                <element signature="e#3835#3836#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +91,8 @@
         <option value="$PROJECT_DIR$/src/FirstRepeat.java" />
         <option value="$PROJECT_DIR$/src/StackToQueue.java" />
         <option value="$PROJECT_DIR$/src/QueueFromStack.java" />
+        <option value="$PROJECT_DIR$/src/StackWMap.java" />
+        <option value="$PROJECT_DIR$/src/Stack.java" />
       </list>
     </option>
   </component>
@@ -123,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +139,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -151,10 +149,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Exclude" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Exclude" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -170,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueFromStack">
+  <component name="RunManager" selected="Application.Stack">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -191,8 +193,8 @@
       <module name="GD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseString" />
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack" />
       <module name="GD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -256,19 +258,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseString" />
       <item itemvalue="Application.LargestSum" />
       <item itemvalue="Application.WordScramble" />
       <item itemvalue="Application.FirstRepeat" />
       <item itemvalue="Application.QueueFromStack" />
+      <item itemvalue="Application.Stack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stack" />
+        <item itemvalue="Application.WordScramble" />
         <item itemvalue="Application.QueueFromStack" />
         <item itemvalue="Application.FirstRepeat" />
-        <item itemvalue="Application.WordScramble" />
         <item itemvalue="Application.LargestSum" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +290,8 @@
       <workItem from="1522177721583" duration="84000" />
       <workItem from="1522474617773" duration="53000" />
       <workItem from="1522568287942" duration="63000" />
+      <workItem from="1523125498242" duration="499000" />
+      <workItem from="1523905788349" duration="447000" />
     </task>
     <task id="LOCAL-00001" summary="Added linked list practice">
       <created>1514001040956</created>
@@ -464,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522466595520</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="HomeAway blog challenge">
+      <created>1522699681112</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1522699681113</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462000" />
+    <option name="totallyTimeSpent" value="1408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,18 +504,18 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297568" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19858156" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19858156" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21843971" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49503547" visible="true" weight="0.23819743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49001816" visible="true" weight="0.30114448" />
       <window_info id="Learn" order="8" weight="0.3297568" />
-      <window_info id="Structure" order="1" sideWeight="0.50496453" side_tool="true" visible="true" weight="0.23819743" />
+      <window_info id="Structure" order="1" sideWeight="0.5099819" side_tool="true" weight="0.24892704" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36737588" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42695037" />
       <window_info id="Favorites" order="6" sideWeight="0.50212765" side_tool="true" weight="0.2353362" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -575,32 +586,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/QueueFromStack.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_1_IsUnique.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -869,22 +858,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordScramble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="375">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstRepeat.java">
+    <entry file="file://$PROJECT_DIR$/src/FirstRepeat.java" />
+    <entry file="file://$PROJECT_DIR$/src/QueueFromStack.java" />
+    <entry file="file://$PROJECT_DIR$/src/Exclude/StackWMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="1230">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/QueueFromStack.java">
+    <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#3804#3805#0" expanded="true" />
+            <element signature="e#3835#3836#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
