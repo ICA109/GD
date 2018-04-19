@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exclude/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exclude/StackWMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,24 +19,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordScramble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WordScramble.java">
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+              <folding>
+                <element signature="e#3788#3789#0" expanded="true" />
+                <element signature="e#3819#3820#0" expanded="true" />
+                <element signature="e#4057#4058#0" expanded="true" />
+                <element signature="e#4090#4091#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Stack.java">
+      <file leaf-file-name="Stack_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Stack_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="e#3804#3805#0" expanded="true" />
-                <element signature="e#3835#3836#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -93,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/QueueFromStack.java" />
         <option value="$PROJECT_DIR$/src/StackWMap.java" />
         <option value="$PROJECT_DIR$/src/Stack.java" />
+        <option value="$PROJECT_DIR$/src/Stack_Test.java" />
       </list>
     </option>
   </component>
@@ -134,6 +135,12 @@
               <item name="GD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Exclude" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -156,8 +163,8 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Exclude" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Exclude" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Stack">
+  <component name="RunManager" selected="Application.Stack_Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -183,11 +190,6 @@
       <module name="GD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LargestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LargestSum" />
-      <module name="GD" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="QueueFromStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueueFromStack" />
       <module name="GD" />
@@ -195,6 +197,11 @@
     </configuration>
     <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack" />
+      <module name="GD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Stack_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack_Test" />
       <module name="GD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -258,19 +265,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.LargestSum" />
       <item itemvalue="Application.WordScramble" />
       <item itemvalue="Application.FirstRepeat" />
       <item itemvalue="Application.QueueFromStack" />
       <item itemvalue="Application.Stack" />
+      <item itemvalue="Application.Stack_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stack_Test" />
         <item itemvalue="Application.Stack" />
         <item itemvalue="Application.WordScramble" />
         <item itemvalue="Application.QueueFromStack" />
         <item itemvalue="Application.FirstRepeat" />
-        <item itemvalue="Application.LargestSum" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522699681113</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Stack with O(1) push(), pop(), and max() value methods.">
+      <created>1524111858463</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1524111858463</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -502,14 +516,14 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" weight="0.32956153" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.19858156" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297568" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19858156" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.19858156" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21843971" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49001816" visible="true" weight="0.30114448" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49001816" visible="true" weight="0.30114448" />
       <window_info id="Learn" order="8" weight="0.3297568" />
       <window_info id="Structure" order="1" sideWeight="0.5099819" side_tool="true" weight="0.24892704" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -582,7 +596,8 @@
     <MESSAGE value="Added char[] based approach" />
     <MESSAGE value="Changed disc count" />
     <MESSAGE value="HomeAway blog challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeAway blog challenge" />
+    <MESSAGE value="Stack with O(1) push(), pop(), and max() value methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack with O(1) push(), pop(), and max() value methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,13 +605,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_1_IsUnique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_4_IsPalPerm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -856,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordScramble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstRepeat.java" />
     <entry file="file://$PROJECT_DIR$/src/QueueFromStack.java" />
     <entry file="file://$PROJECT_DIR$/src/Exclude/StackWMap.java">
@@ -875,14 +876,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordScramble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="255">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
-            <element signature="e#3804#3805#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
+            <element signature="e#3788#3789#0" expanded="true" />
+            <element signature="e#3819#3820#0" expanded="true" />
+            <element signature="e#4057#4058#0" expanded="true" />
+            <element signature="e#4090#4091#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
         </state>
       </provider>
     </entry>

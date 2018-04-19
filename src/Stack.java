@@ -11,35 +11,35 @@ public class Stack {
         stack.push(3);
         stack.push(2);
         stack.push(4);
-        System.out.println("Final index: " + stack.finalIndex);
+        System.out.println("Final index: " + stack.getFinalIndex());
+        System.out.println("Max: " + stack.max());
+
+        System.out.println("--------------------------------");
+        System.out.println("Popped: " + stack.pop());
+        System.out.println("Final index: " + stack.getFinalIndex());
         System.out.println("Max: " + stack.max());
 
         System.out.println("--------------------------------");
         stack.pop();
-        System.out.println("Final index: " + stack.finalIndex);
+        System.out.println("Final index: " + stack.getFinalIndex());
         System.out.println("Max: " + stack.max());
 
         System.out.println("--------------------------------");
         stack.pop();
-        System.out.println("Final index: " + stack.finalIndex);
-        System.out.println("Max: " + stack.max());
-
-        System.out.println("--------------------------------");
-        stack.pop();
-        System.out.println("Final index: " + stack.finalIndex);
+        System.out.println("Final index: " + stack.getFinalIndex());
         System.out.println("Max: " + stack.max());
 
         //Remove last element
         System.out.println("--------------------------------");
         stack.pop();
-        System.out.println("Final index: " + stack.finalIndex);
-        System.out.println("Max: " + stack.maxValue);
+        System.out.println("Final index: " + stack.getFinalIndex());
+        System.out.println("Max: " + stack.max());
 
         //Try removing beyond last element
         System.out.println("--------------------------------");
         stack.pop();
-        System.out.println("Final index: " + stack.finalIndex);
-        System.out.println("Max: " + stack.maxValue);
+        System.out.println("Final index: " + stack.getFinalIndex());
+        System.out.println("Max: " + stack.max());
 
         //Add more elements back in
         System.out.println("--------------------------------");
@@ -47,8 +47,8 @@ public class Stack {
         stack.push(11);
         stack.push(7);
         stack.pop();
-        System.out.println("Final index: " + stack.finalIndex);
-        System.out.println("Max: " + stack.maxValue);
+        System.out.println("Final index: " + stack.getFinalIndex());
+        System.out.println("Max: " + stack.max());
     }
 
     /*
@@ -61,7 +61,7 @@ public class Stack {
         private Integer value;
         private Node refToPrevMax;  //Point back to previous max if overshadowing it
 
-        public Node(Integer value, Node refToPrevMax) {
+        Node(Integer value, Node refToPrevMax) {
             this.value = value;
             this.refToPrevMax = refToPrevMax;
         }
@@ -72,7 +72,7 @@ public class Stack {
     private Integer maxValue;
     private Node refToMaxNode;
 
-    public Stack() {
+    Stack() {
         internalList = new ArrayList<>();
         finalIndex = -1;        //Keep track of internalList length; Starts at -1 so 1st element is at index 0
         maxValue = null;
@@ -80,7 +80,7 @@ public class Stack {
     }
 
     //Push object to top of stack
-    public void push(Integer val) {
+    void push(Integer val) {
         Node newNode;
         if (maxValue == null || val >= maxValue) {
             newNode = new Node(val, refToMaxNode);
@@ -96,11 +96,11 @@ public class Stack {
     }
 
     //Pop object from top of stack
-    public Integer pop() {
+    Integer pop() {
         try {
             Node top = internalList.remove(finalIndex);
 
-            if (top.value == maxValue) {
+            if (top.value.equals(maxValue)) {
 
                 refToMaxNode = top.refToPrevMax;
 
@@ -122,7 +122,12 @@ public class Stack {
     }
 
     //Return value of maximum object from stack
-    public Integer max() {
+    Integer max() {
         return maxValue;
+    }
+
+    //Helper methods
+    int getFinalIndex() {
+        return finalIndex;
     }
 }
