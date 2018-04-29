@@ -1,10 +1,10 @@
 public class Stack_Test {
 
-    private static Stack stack;
+    private static StackCustom stack;
 
     //Driver method for testing Stack.java
     public static void main(String[] args) {
-        stack = new Stack();
+        stack = new StackCustom();
 
         System.out.println("--------------------------------");
         stack.push(1);

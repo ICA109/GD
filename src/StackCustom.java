@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
-public class Stack {
+public class StackCustom {
 
     //Driver method for testing
     public static void main(String[] args) {
-        Stack stack = new Stack();
+        StackCustom stack = new StackCustom();
 
         System.out.println("--------------------------------");
         stack.push(1);
@@ -72,7 +72,7 @@ public class Stack {
     private Integer maxValue;
     private Node refToMaxNode;
 
-    Stack() {
+    StackCustom() {
         internalList = new ArrayList<>();
         finalIndex = -1;        //Keep track of internalList length; Starts at -1 so 1st element is at index 0
         maxValue = null;
