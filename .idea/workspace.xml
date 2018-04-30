@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/URLShort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/URLShort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/URLShort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="URLShort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/URLShort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="35" column="104" selection-start-line="35" selection-start-column="104" selection-end-line="35" selection-end-column="104" />
+            <state relative-caret-position="173">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -648,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524960856612</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Microsoft: URL Shortener">
+      <created>1525128601788</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1525128601789</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -763,7 +770,8 @@
     <MESSAGE value="HomeAway blog challenge" />
     <MESSAGE value="Stack with O(1) push(), pop(), and max() value methods." />
     <MESSAGE value="Apple: Implement Queue using two Stacks." />
-    <option name="LAST_COMMIT_MESSAGE" value="Apple: Implement Queue using two Stacks." />
+    <MESSAGE value="Microsoft: URL Shortener" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microsoft: URL Shortener" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1040,8 +1048,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/URLShort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="35" column="104" selection-start-line="35" selection-start-column="104" selection-end-line="35" selection-end-column="104" />
+        <state relative-caret-position="173">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

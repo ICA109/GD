@@ -12,20 +12,20 @@ public class URLShort {
 
     public String shorten(String orgURL) {
         System.out.println("Your current URL is: " + orgURL);
+
         String currentShort;
         char[] alphaNumeric = new char[3];
+
         do {
             currentShort = "";
-
             for (int i = 1; i <= 6; i++) {
-                //currentShort += (char) (48 + rng.nextInt(2));
                 alphaNumeric[0] = (char) (48 + rng.nextInt(10));    //Numbers
                 alphaNumeric[1] = (char) (65 + rng.nextInt(26));    //Uppercase
                 alphaNumeric[2] = (char) (97 + rng.nextInt(26));    //Uppercase
-
                 currentShort += alphaNumeric[rng.nextInt(3)];       //Pick one of the above
             }
         } while (database.containsKey(currentShort));
+
         database.put(currentShort, orgURL);
         System.out.println("Your new URL is: " + currentShort);
         return currentShort;
