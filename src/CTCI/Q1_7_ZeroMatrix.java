@@ -10,8 +10,10 @@ public class Q1_7_ZeroMatrix {
 
         AssortedMethods.printMatrix(matrix1);
 
-        QuestionA.setZeros(matrix1);
-        QuestionB.setZeros(matrix2);
+        //QuestionA.setZeros(matrix1);
+        //QuestionB.setZeros(matrix2);
+
+        rotate(matrix1);
 
         System.out.println();
 
