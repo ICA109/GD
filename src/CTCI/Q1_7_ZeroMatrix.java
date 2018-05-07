@@ -13,6 +13,8 @@ public class Q1_7_ZeroMatrix {
         //QuestionA.setZeros(matrix1);
         //QuestionB.setZeros(matrix2);
 
+        Q1_7_ModelB.setZeros(matrix2);
+
         rotate(matrix1);
 
         System.out.println();
@@ -57,16 +59,18 @@ public class Q1_7_ZeroMatrix {
 
     public static void rotate(int[][] original) {
 
+        int[][] copyOfOrg = cloneMatrix(original);
         for (int m=0; m<original.length; m++) {
             for (int n=0; n<original[m].length; n++) {
-                if (original[m][n] == 0) {
-                    //Set rows and columns to 0
+                if (copyOfOrg[m][n] == 0) {
+                    //Set rows and columns to 0 (relative to original)
                     for (int i=0; i<original.length; i++) {
                         original[i][n] = 0;
                     }
                     for (int j=0; j<original[m].length; j++) {
                         original[m][j] = 0;
                     }
+                    //break;
                 }
             }
         }
