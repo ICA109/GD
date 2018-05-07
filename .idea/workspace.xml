@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CTCI/AssortedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTCI/AssortedMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTCI/BTreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTCI/BTreePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTCI/BitVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTCI/BitVector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTCI/HashMapList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTCI/HashMapList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTCI/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTCI/LinkedListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTCI/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTCI/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTCI/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTCI/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTCI/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTCI/TrieNode.java" afterDir="false" />
+    <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="Added JUnit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RunNTimes.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +20,22 @@
     <favorites_list name="GD" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Q1_7_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Q1_7_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Q1_7_Test">
+  <component name="RunManager" selected="JUnit.All in GD">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -484,10 +493,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in GD" />
         <item itemvalue="JUnit.Q1_7_Test" />
         <item itemvalue="JUnit.RunNTimes" />
         <item itemvalue="JUnit.Q1_7_Test.testRotate" />
-        <item itemvalue="JUnit.All in GD" />
         <item itemvalue="Application.Q1_7_ZeroMatrix" />
       </list>
     </recent_temporary>
@@ -763,19 +772,17 @@
       <option name="project" value="LOCAL" />
       <updated>1525674467629</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Added JUnit">
+      <created>1525674947795</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1525674947795</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Q1_7_Test - 2018.05.06 at 23h 19m 21s.xml">
-      <configuration name="Q1_7_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Q1_7_Test - 2018.05.06 at 23h 19m 33s.xml">
-      <configuration name="Q1_7_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Q1_7_Test_testRotate - 2018.05.06 at 23h 19m 39s.xml">
-      <configuration name="Q1_7_Test.testRotate" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Q1_7_Test_testRotate - 2018.05.06 at 23h 22m 08s.xml">
       <configuration name="Q1_7_Test.testRotate" configurationId="JUnit" />
     </history-entry>
@@ -797,6 +804,15 @@
     <history-entry file="Q1_7_Test - 2018.05.06 at 23h 26m 24s.xml">
       <configuration name="Q1_7_Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Q1_7_Test - 2018.05.06 at 23h 35m 31s.xml">
+      <configuration name="Q1_7_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GD - 2018.05.06 at 23h 36m 40s.xml">
+      <configuration name="All in GD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GD - 2018.05.06 at 23h 37m 51s.xml">
+      <configuration name="All in GD" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1408000" />
@@ -812,23 +828,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32907802" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32907802" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Learn" order="2" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1168,36 +1185,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/RunNTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CTCI/LinkedListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Q1_7_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,6 +1217,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/RunNTimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Q1_7_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
