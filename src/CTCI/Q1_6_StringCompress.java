@@ -7,12 +7,18 @@ public class Q1_6_StringCompress {
         System.out.println(compress(""));
         System.out.println(compress("aabcccccaaa"));
         System.out.println(compress("aaaaabbbbaaaabbddc"));
+        System.out.println(compress("z"));
     }
 
     public static String compress(String original) {
         char prevChar;
         int compCount;
         String compressed;
+
+        //Length of 1 default behavior
+        if (original.length() == 1) {
+            return original;
+        }
 
         try {
             prevChar = original.charAt(0);  //Initial values
@@ -25,6 +31,11 @@ public class Q1_6_StringCompress {
         }
 
         for (int i=1; i<original.length(); i++) {
+            //Don't return compressed string if longer than original
+            if (compressed.length() > original.length()) {
+                return original;
+            }
+
             if (original.charAt(i) == prevChar) {
                 compCount++;
             } else {
@@ -38,7 +49,6 @@ public class Q1_6_StringCompress {
             if (i == original.length() -1 ) {
                 compressed += prevChar;
                 compressed += compCount;
-                return compressed;
             }
         }
         return compressed;
