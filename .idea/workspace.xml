@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CTCI/Q1_9_StringRotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Q1_9_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,12 +25,33 @@
       <file leaf-file-name="Q1_7_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Q1_7_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q1_9_StringRotate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_9_StringRotate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q1_9_Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Q1_9_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="122" selection-start-line="10" selection-start-column="122" selection-end-line="10" selection-end-column="122" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/CTCI/Q1_7_ModelB.java" />
         <option value="$PROJECT_DIR$/src/CTCI/Q1_7_ZeroMatrix.java" />
         <option value="$PROJECT_DIR$/tests/RunNTimes.java" />
+        <option value="$PROJECT_DIR$/src/CTCI/Q1_9_StringRotate.java" />
+        <option value="$PROJECT_DIR$/tests/Q1_9_Test.java" />
         <option value="$PROJECT_DIR$/tests/Q1_7_Test.java" />
       </list>
     </option>
@@ -194,14 +219,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Q1_7_Test">
+  <component name="RunManager" selected="JUnit.All in GD">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
     </configuration>
-    <configuration name="Q1_7_ZeroMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CTCI.Q1_7_ZeroMatrix" />
+    <configuration name="Q1_9_StringRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CTCI.Q1_9_StringRotate" />
       <module name="GD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -248,14 +273,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Q1_7_Test.testRotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1_9_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GD" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Q1_7_Test" />
-      <option name="METHOD_NAME" value="testRotate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Q1_9_Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -265,14 +290,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RunNTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1_9_Test.isRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GD" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunNTimes" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Q1_9_Test" />
+      <option name="METHOD_NAME" value="isRotationTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -484,19 +509,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Q1_7_ZeroMatrix" />
       <item itemvalue="JUnit.All in GD" />
-      <item itemvalue="JUnit.Q1_7_Test.testRotate" />
       <item itemvalue="JUnit.Q1_7_Test" />
-      <item itemvalue="JUnit.RunNTimes" />
+      <item itemvalue="Application.Q1_9_StringRotate" />
+      <item itemvalue="JUnit.Q1_9_Test" />
+      <item itemvalue="JUnit.Q1_9_Test.isRotationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Q1_7_Test" />
         <item itemvalue="JUnit.All in GD" />
-        <item itemvalue="JUnit.RunNTimes" />
-        <item itemvalue="JUnit.Q1_7_Test.testRotate" />
-        <item itemvalue="Application.Q1_7_ZeroMatrix" />
+        <item itemvalue="JUnit.Q1_9_Test.isRotationTest" />
+        <item itemvalue="JUnit.Q1_9_Test" />
+        <item itemvalue="Application.Q1_9_StringRotate" />
+        <item itemvalue="JUnit.Q1_7_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -785,38 +810,45 @@
       <option name="project" value="LOCAL" />
       <updated>1525675110610</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Parameterized test suite">
+      <created>1525676525720</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1525676525720</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Q1_7_Test_testRotate - 2018.05.06 at 23h 22m 14s.xml">
-      <configuration name="Q1_7_Test.testRotate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunNTimes - 2018.05.06 at 23h 25m 10s.xml">
-      <configuration name="RunNTimes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Q1_7_Test - 2018.05.06 at 23h 25m 56s.xml">
-      <configuration name="Q1_7_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Q1_7_Test - 2018.05.06 at 23h 26m 24s.xml">
-      <configuration name="Q1_7_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Q1_7_Test - 2018.05.06 at 23h 35m 31s.xml">
-      <configuration name="Q1_7_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_GD - 2018.05.06 at 23h 36m 40s.xml">
-      <configuration name="All in GD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_GD - 2018.05.06 at 23h 37m 51s.xml">
-      <configuration name="All in GD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_GD - 2018.05.06 at 23h 51m 28s.xml">
-      <configuration name="All in GD" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_GD - 2018.05.06 at 23h 52m 10s.xml">
       <configuration name="All in GD" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_GD - 2018.05.06 at 23h 54m 28s.xml">
+      <configuration name="All in GD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Q1_7_Test - 2018.05.07 at 00h 01m 44s.xml">
+      <configuration name="Q1_7_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Q1_9_Test - 2018.05.07 at 11h 28m 08s.xml">
+      <configuration name="Q1_9_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Q1_9_Test - 2018.05.07 at 11h 30m 34s.xml">
+      <configuration name="Q1_9_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Q1_9_Test - 2018.05.07 at 11h 31m 02s.xml">
+      <configuration name="Q1_9_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Q1_9_Test - 2018.05.07 at 11h 31m 37s.xml">
+      <configuration name="Q1_9_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Q1_9_Test - 2018.05.07 at 11h 31m 50s.xml">
+      <configuration name="Q1_9_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Q1_9_Test_isRotationTest - 2018.05.07 at 11h 31m 59s.xml">
+      <configuration name="Q1_9_Test.isRotationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GD - 2018.05.07 at 11h 32m 11s.xml">
       <configuration name="All in GD" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -839,18 +871,19 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32907802" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32907802" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info id="Learn" order="2" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -864,7 +897,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32907802" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +940,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added CTCI Q1.2" />
     <MESSAGE value="Added CTCI Q1.3" />
     <MESSAGE value="Fixed indexing issue" />
     <MESSAGE value="Added additional comments" />
@@ -933,7 +964,8 @@
     <MESSAGE value="Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to O." />
     <MESSAGE value="Added JUnit" />
     <MESSAGE value="Removed default test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed default test case" />
+    <MESSAGE value="Parameterized test suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parameterized test suite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,20 +985,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChkConnect4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1176,13 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_7_ZeroMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CTCI/LinkedListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1219,14 +1230,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/RunNTimes.java" />
+    <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_7_ZeroMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CTCI/Q1_9_StringRotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Q1_9_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="122" selection-start-line="10" selection-start-column="122" selection-end-line="10" selection-end-column="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Q1_7_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
           </folding>
         </state>
       </provider>

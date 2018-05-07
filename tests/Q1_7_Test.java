@@ -12,7 +12,7 @@ public class Q1_7_Test {
 
     @Parameterized.Parameters
     public static Object[][] data() {
-        return new Object[1000][0];   //1st value determines number of tests run
+        return new Object[100][0];   //1st value determines number of tests run
     }
 
 
