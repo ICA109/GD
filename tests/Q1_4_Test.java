@@ -10,7 +10,7 @@ public class Q1_4_Test {
     public void canCreatePalPermTest() {
 
         String[] stringsTrue = {"aaa", "bbbb", "Tact Coa","Rats live on no evil star", "A man a plan a canal panama", "A man, a plan, a canal, panama","Lleve", "Tacotac"};
-        String[] stringsFalse = {"asda"};
+        String[] stringsFalse = {"asda", "abcde"};
 
         for (String s : stringsTrue) {
             assertTrue(canCreatePalPerm(s));
