@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="Test cases for potential palindrome generator">
-      <change afterPath="$PROJECT_DIR$/src/DiagonalSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Staircase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +29,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiagonalSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiagonalSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DiagonalSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staircase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Staircase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CommonInts.java" />
         <option value="$PROJECT_DIR$/src/LargestSum.java" />
         <option value="$PROJECT_DIR$/src/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/RevLinkedList.java" />
@@ -106,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/CTCI/Q2_1_RmDuplicates.java" />
         <option value="$PROJECT_DIR$/tests/Q1_4_Test.java" />
         <option value="$PROJECT_DIR$/src/DiagonalSum.java" />
+        <option value="$PROJECT_DIR$/src/Staircase.java" />
       </list>
     </option>
   </component>
@@ -203,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiagonalSum">
+  <component name="RunManager" selected="Application.Staircase">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -224,6 +236,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="Staircase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Staircase" />
+      <module name="GD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -246,23 +263,6 @@
       <patterns />
     </configuration>
     <configuration name="All in GD (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GD" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="All in GD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GD" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -405,18 +405,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Q1_4_IsPalPerm" />
-      <item itemvalue="JUnit.All in GD" />
       <item itemvalue="JUnit.All in GD (1)" />
       <item itemvalue="JUnit.All in GD (2)" />
       <item itemvalue="Application.DiagonalSum" />
+      <item itemvalue="Application.Staircase" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Staircase" />
         <item itemvalue="Application.DiagonalSum" />
         <item itemvalue="JUnit.All in GD (2)" />
         <item itemvalue="JUnit.All in GD (1)" />
         <item itemvalue="Application.Q1_4_IsPalPerm" />
-        <item itemvalue="JUnit.All in GD" />
       </list>
     </recent_temporary>
   </component>
@@ -740,7 +740,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525889212025</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="HackerRank diagonal matrix sum">
+      <created>1526067428033</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1526067428033</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -801,12 +808,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32907802" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.22269504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.22269504" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3319027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3319027" />
       <window_info id="Learn" order="2" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -863,7 +870,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changes to method signatures" />
     <MESSAGE value="Solution to 771. Jewels and Stones" />
     <MESSAGE value="Solution to 7. Reverse Integer" />
     <MESSAGE value="Added 3rd sample set" />
@@ -888,7 +894,8 @@
     <MESSAGE value="String rotation" />
     <MESSAGE value="Remove duplicate nodes" />
     <MESSAGE value="Test cases for potential palindrome generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test cases for potential palindrome generator" />
+    <MESSAGE value="HackerRank diagonal matrix sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank diagonal matrix sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,12 +906,6 @@
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DiagonalSum.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="28" />
     </breakpoint-manager>
@@ -914,13 +915,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringRmDup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -1188,8 +1182,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DiagonalSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Staircase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
