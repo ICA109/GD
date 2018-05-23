@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TimeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InsertionSortP1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,8 +33,8 @@
       <file leaf-file-name="MinMaxSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MinMaxSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="495">
+              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeConversion.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TimeConversion.java">
+      <file leaf-file-name="BirthdayCake.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BirthdayCake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="480">
+              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSortP1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InsertionSortP1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,15 +85,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HackerRank" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/CTCI/Q1_1_IsUnique.java" />
         <option value="$PROJECT_DIR$/src/CTCI/Q1_2_ChkPerm.java" />
         <option value="$PROJECT_DIR$/src/CTCI/Q1_4_IsPalPerm.java" />
@@ -131,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/LFUCacheSimp.java" />
         <option value="$PROJECT_DIR$/src/MinMaxSum.java" />
         <option value="$PROJECT_DIR$/src/TimeConversion.java" />
+        <option value="$PROJECT_DIR$/src/BirthdayCake.java" />
+        <option value="$PROJECT_DIR$/src/InsertionSortP1.java" />
       </list>
     </option>
   </component>
@@ -159,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -187,7 +200,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -228,14 +240,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeConversion">
+  <component name="RunManager" selected="Application.BirthdayCake">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
     </configuration>
-    <configuration name="DiagonalSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiagonalSum" />
+    <configuration name="BirthdayCake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BirthdayCake" />
       <module name="GD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -387,19 +399,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.DiagonalSum" />
       <item itemvalue="Application.Staircase" />
       <item itemvalue="Application.LFUCacheSimp" />
       <item itemvalue="Application.MinMaxSum" />
       <item itemvalue="Application.TimeConversion" />
+      <item itemvalue="Application.BirthdayCake" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BirthdayCake" />
         <item itemvalue="Application.TimeConversion" />
         <item itemvalue="Application.MinMaxSum" />
         <item itemvalue="Application.LFUCacheSimp" />
         <item itemvalue="Application.Staircase" />
-        <item itemvalue="Application.DiagonalSum" />
       </list>
     </recent_temporary>
   </component>
@@ -744,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526153194306</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="HackerRank: Birthday Cake">
+      <created>1527101878223</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1527101878223</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -798,19 +817,18 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info id="DB Browser" order="2" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32907802" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32907802" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.22269504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.22269504" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Learn" order="2" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -818,35 +836,13 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32907802" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.22269504" />
-      <window_info id="DB Browser" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Designer" order="3" />
-      <window_info id="Learn" order="2" weight="0.3297568" />
-      <window_info id="Palette&#9;" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.32907802" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -890,7 +886,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added 3rd sample set" />
     <MESSAGE value="Faster non-string approach" />
     <MESSAGE value="Added palindrome detector" />
     <MESSAGE value="Added LeetCode 412. Fizz Buzz" />
@@ -915,7 +910,8 @@
     <MESSAGE value="HackerRank diagonal matrix sum" />
     <MESSAGE value="HackerRank print staircase pattern" />
     <MESSAGE value="Least frequently used cache system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Least frequently used cache system" />
+    <MESSAGE value="HackerRank: Birthday Cake" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank: Birthday Cake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -935,7 +931,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CTCI/Tower.java" />
     <entry file="db://[cs421g27]sessions/cs421g27 Sessions" />
     <entry file="db://[cs421g27]consoles/cs421g27" />
     <entry file="file://$PROJECT_DIR$/src/Tower.java">
@@ -1192,13 +1187,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BirthdayCake.java">
+    <entry file="file://$PROJECT_DIR$/src/TimeConversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1211,18 +1203,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MinMaxSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="495">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TimeConversion.java">
+    <entry file="file://$PROJECT_DIR$/src/BirthdayCake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="480">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortP1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
