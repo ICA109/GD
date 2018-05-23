@@ -29,8 +29,8 @@ public class BirthdayCake {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        int[] arr = {3, 2, 1, 3};
-        System.out.println(birthdayCakeCandles(arr));
+        int[] arrr = {3, 2, 1, 3};
+        System.out.println(birthdayCakeCandles(arrr));
     }
 }
 
