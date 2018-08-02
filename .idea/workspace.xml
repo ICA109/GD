@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="">
+    <list default="true" id="32110076-4244-43d4-bb20-7f5dddbd14ea" name="Default" comment="workspace file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,10 +18,16 @@
     <session id="418908838">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,18 +40,28 @@
           <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="14" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="GD" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ChkConnect4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-603">
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="151">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -153,7 +169,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="802" />
@@ -168,6 +184,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +201,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,12 +209,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532639931573" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533011907404" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -418,13 +434,6 @@
       <workItem from="1522568287942" duration="63000" />
       <workItem from="1523125498242" duration="499000" />
       <workItem from="1523905788349" duration="447000" />
-    </task>
-    <task id="LOCAL-00003" summary="Added multiple problems">
-      <created>1514001443879</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1514001443879</updated>
     </task>
     <task id="LOCAL-00004" summary="Removed some comments">
       <created>1514001642971</created>
@@ -762,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531693643852</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="workspace file">
+      <created>1532643465911</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1532643465913</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -810,10 +826,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="802" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="802" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21101573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -824,7 +840,7 @@
       <window_info id="DB Browser" order="8" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.2690141" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.2690141" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -887,7 +903,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added LeetCode 344. Reverse String" />
     <MESSAGE value="Added LeetCode 000. Find seat with most neighboring spaces." />
     <MESSAGE value="Added LeetCode 66. Plus One" />
     <MESSAGE value="Added char[] based approach" />
@@ -912,7 +927,8 @@
     <MESSAGE value="HackerRank: Insertion Sort P1" />
     <MESSAGE value="HackerRank: GradingStudents" />
     <MESSAGE value="HackerRank: InsertionSortP1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HackerRank: InsertionSortP1" />
+    <MESSAGE value="workspace file" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1232,8 +1248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChkConnect4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="151">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
