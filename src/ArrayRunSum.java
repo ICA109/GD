@@ -5,6 +5,7 @@ public class ArrayRunSum {
         System.out.println("iterSum: " + iterSum(sample));
         System.out.println("recSum: " + recSum(sample, 0, 0));
         System.out.println("recSum2: " + recSum2(sample, sample.length-1));
+        System.out.println("recSum3: " + recSum3(sample, 0, 0));
     }
 
     public static int iterSum(int[] input) {
@@ -29,6 +30,14 @@ public class ArrayRunSum {
             return input2[0];
         }
         return recSum2(input2, index2-1) + input2[index2];
+    }
+
+    //Alternative
+    public static int recSum3(int[] input, int sum, int index) {
+        if (index == input.length) {
+            return sum;
+        }
+        return recSum3(input, sum + input[index], index+1);
     }
 
 }
