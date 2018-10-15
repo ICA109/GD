@@ -1,8 +1,7 @@
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashSet;
 
 public class StrPermutations {
-
 
     public static void main(String[] args) {
         String s1 = "ABC";
@@ -12,33 +11,39 @@ public class StrPermutations {
         permutation_wrapper(s1);
         permutation_wrapper(s2);
         permutation_wrapper(s3);
-
     }
 
+    private static void permutation_wrapper(String source) {
+        //ArrayList<String> processed_combos = new ArrayList<>();
+        HashSet<String> unique_combos_set = new HashSet<>();
 
-    public static ArrayList<String> permutation_wrapper(String source) {
-        ArrayList<String> all_combos = new ArrayList<>();
-        permutation("", source, all_combos);
-        System.out.println(all_combos);
-        return all_combos;
+        permutation("", source, unique_combos_set);
+
+        /*
+        //  replaced by below bulk call to addAll()
+        for (String a_combo : unique_combos_set) {
+            processed_combos.add(a_combo);
+        }
+        */
+
+        //processed_combos.addAll(unique_combos_set);
+
+        ArrayList<String> processed_combos = new ArrayList<>(unique_combos_set);
+
+        System.out.println(processed_combos);
     }
 
-    public static void permutation(String prefix, String remainingSet, ArrayList<String> all_combos) {
+    private static void permutation(String prefix, String remainingSet, HashSet<String> unique_combos_set) {
         int rsLength = remainingSet.length();
         if (rsLength == 0) {
-            all_combos.add(prefix);
+            unique_combos_set.add(prefix);
         }
         else {
             for (int i=0; i<rsLength; i++) {
                 permutation(prefix + remainingSet.charAt(i),
                         remainingSet.substring(0, i) + remainingSet.substring(i+1,rsLength),
-                        all_combos);
+                        unique_combos_set);
             }
         }
     }
-
-
-
-
-
 }
